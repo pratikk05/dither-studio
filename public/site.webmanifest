@@ -1,0 +1,18 @@
+{
+  "name": "Dither Studio",
+  "short_name": "Dither Studio",
+  "description": "A browser-based 3D ordered dithering studio.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#090b0c",
+  "theme_color": "#090b0c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

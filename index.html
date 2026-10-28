@@ -1,1 +1,41 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="theme-color" content="#0b0d0e"/><meta name="description" content="A local-first 3D dithering playground. Upload a model, tune a real-time GLSL shader, export a render."/><title>Dither Studio — 3D shader playground</title></head><body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b0c" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="Turn 3D models into bold ordered-dither artwork. Tune a real-time Bayer shader, orbit your model, and export PNG renders or website-ready code." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dither Studio" />
+    <meta property="og:title" content="Dither Studio — 3D Model Dithering Tool" />
+    <meta property="og:description" content="Preview 3D models with a real-time ordered Bayer dithering shader. Adjust the look and export a render or a standalone website page." />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Dither Studio — 3D Model Dithering Tool" />
+    <meta name="twitter:description" content="Preview 3D models with a real-time ordered Bayer dithering shader. Adjust the look and export a render or a standalone website page." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Dither Studio",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript and WebGL",
+        "description": "A browser-based 3D model viewer and ordered Bayer dithering tool with image and website-code export."
+      }
+    </script>
+    <title>Dither Studio — 3D Model Dithering Tool</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Dither Studio needs JavaScript and WebGL to preview and dither 3D models.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
